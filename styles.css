@@ -103,6 +103,14 @@ nav {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
+.Shop {
+    transition: all 0.3s ease;
+  }
+  
+  .shrink {
+    transform: scale(0.95);
+  }
+
 .login-button{
     width: 12%;
     height: 45px;
@@ -118,4 +126,20 @@ nav {
     cursor: pointer;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
 }
+
+.login-button {
+    transition: all 0.3s ease;
+  }
+  
+  .shrink {
+    transform: scale(0.95);
+  }
+
+
+
+
+ 
+
+
+
 

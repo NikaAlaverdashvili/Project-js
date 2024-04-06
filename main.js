@@ -16,3 +16,19 @@ webName.addEventListener('click', function() {
 
 
 
+function shrinkAndRestore(selector) {
+    const button = document.querySelector(selector);
+    button.classList.add('shrink');
+    
+    setTimeout(function() {
+      button.classList.remove('shrink');
+    }, 300); 
+  }
+
+
+
+
+
+
+
+

@@ -15,7 +15,7 @@
     <nav>
        
 
-        <button class="navigation-button">
+        <button class="navigation-button" onclick="shrinkAndRestore('.navigation-button')">
             <p class="navigation">NAVIGATION</p>
         </button>
 
@@ -24,16 +24,15 @@
             <input class="search-input" type="search" placeholder="SEARCH">
         </div>
 
-        <button class="Shop">
+        <button class="Shop" onclick="shrinkAndRestore('.Shop')">
             <i class="fa-solid fa-cart-shopping"></i>
             <p class="basket">BASKET</p>
         </button>
 
-        <button class="login-button">
+        <button class="login-button" onclick="shrinkAndRestore('.login-button')" onclick="toggleLoginForm()">
             <i class="fa-solid fa-user"></i>
             <p class="user">LOG IN</p>
         </button>
-
     </nav>
     </header>
 
