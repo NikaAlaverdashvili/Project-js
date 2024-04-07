@@ -160,6 +160,7 @@ nav {
     width: 80%;
     height: 150vh;
     background-color: rgb(255, 255, 255);
+    font-family: "Quicksand", sans-serif;
 }
 
 .categories-item {
@@ -167,6 +168,7 @@ nav {
     height: 50px;
     border-bottom: 2px solid darkgrey;
     font-size: 20px;
+    color: rgb(98, 98, 98);
 }
 
 

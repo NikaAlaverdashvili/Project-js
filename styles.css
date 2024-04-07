@@ -12,6 +12,11 @@
 }
 
 
+body {
+  height: 200vh;
+}
+
+
 
 header {
     width: 100%;
@@ -141,6 +146,18 @@ nav {
 /* body */
 
 
+
+.container {
+  width: 82%;
+  height: 380px;
+  position: relative;
+  top: 100px;
+  left: 8%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
 .Categorize-box {
   width: 250px;
   height: 380px;
@@ -150,11 +167,9 @@ nav {
   align-items: center;
   justify-content: center;
   border-radius: 13px;
-  position: relative;
-  left: 10%;
-  top: 100px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
   overflow: hidden;
+  border: 1px solid rgb(255, 89, 0);
 }
 
 .div-item {
@@ -165,13 +180,59 @@ nav {
   gap: 10px;
   font-size: 16px;
   color: rgb(98, 98, 98);
-  border-bottom: 1px solid darkgrey;
   font-family: "Quicksand", sans-serif;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+}
+
+.bottom-border {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  border-bottom: 2px solid rgb(87, 87, 87);
+}
+
+
+.bottom-border:hover {
+  display: none;
+}
+
+.div-item i {
+  margin-left: 10%;
 }
 
 .div-item:hover {
   background-color: rgb(229, 226, 226);
 }
+
+
+
+.img-container {
+  width: 60%;
+  height: 380px;
+  border-radius: 13px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+  border: 2px solid rgb(255, 89, 0);
+  cursor: pointer;
+}
+
+
+.img-container {
+  width: 75%;
+  height: 100%;
+  text-align: center;
+}
+.img-container img {
+  max-width: 100%;
+  height: 100%;
+}
+
+
+
 
   
 
