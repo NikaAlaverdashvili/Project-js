@@ -24,15 +24,65 @@
             <input class="search-input" type="search" placeholder="SEARCH">
         </div>
 
-        <button class="Shop"  onclick="shrinkAndRestore('.Shop')">
+
+
+
+        <button class="Shop" onclick="navigateToPage('.Shop')" onclick="showWindow()"  onclick="shrinkAndRestore('.Shop')">
             <i class="fa-solid fa-cart-shopping"></i>
             <p>BASKET</p>
         </button>
+
+        <div id="myWindow" class="window">
+            <div class="window-header">
+                <h3>basket</h3>
+                <p>0 product</p>
+            </div>
+            <div class="basket-icon">
+            <i class="fa-solid fa-basket-shopping"></i>
+            </div>
+            <h4>Total price: 0 $</h4>
+            <div class="window-button">
+                <button class="basket-Batton">OPEN BASKET</button>
+            </div>
+          </div>
+
+
+
+
         
         <button class="login-button" onclick="shrinkAndRestore('.login-button')">
             <i class="fa-solid fa-user"></i>
             <p>LOG IN</p>
         </button>
+
+
+        <div id="loginWindow" class="window__2">
+            <div class="window-head">
+                <div>Authorization</div>
+                <div>Registration</div>
+                <div class="closing-button"><i class="fa-solid fa-x"></i></div>
+            </div>
+            <div class="buttons">
+                <button>Authorization by number</button>
+                <button>Email authorization</button>
+            </div>
+            <div class="phone-number-form">
+             <select id="Phone-number" name="phone">
+              <option value="+995">+995</option>
+              <option value="+567">+567</option>
+              <option value="+380">+380</option>
+              <option value="+420">+420</option>
+             </select>
+            <input type="tel" id="phoneNum" placeholder="Phone Number">
+            </div>
+
+          </div>
+
+
+       
+
+
+
     </nav>
     </header>
 
@@ -93,6 +143,10 @@
 
       <div class="img-container" id="imageContainer"></div>
 
+    </div>
+
+    <div class="icon">
+        <i class="fa-solid fa-message"></i>
     </div>
 
 

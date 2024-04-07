@@ -15,23 +15,6 @@ webName.addEventListener('click', function() {
 
 
 
-
-function shrinkAndRestore(selector) {
-    const button = document.querySelector(selector);
-    button.classList.add('shrink');
-    
-    setTimeout(function() {
-      button.classList.remove('shrink');
-    }, 300); 
-  }
-
-
-
-
-
-
-  
-
 //autoChangeImage
 
   const imageFiles = ['image1.jpg', 'image2.jpg', 'image3.jpg', 'image4.jpg'];
@@ -97,3 +80,59 @@ function shrinkAndRestore(selector) {
       divItem.addEventListener('mouseenter', removeBottomBorder);
       divItem.addEventListener('mouseleave', showBottomBorder);
   });
+
+
+
+//basket window
+function showWindow() {
+  document.getElementById("myWindow").style.display = "block";
+}
+
+function hideWindow() {
+  document.getElementById("myWindow").style.display = "none";
+}
+
+document.querySelector(".Shop").addEventListener("click", function() {
+  window.location.href = 'basket.html';
+});
+
+document.querySelector(".Shop").addEventListener("mouseenter", showWindow);
+document.querySelector(".Shop").addEventListener("mouseleave", hideWindow);
+
+document.getElementById("myWindow").addEventListener("mouseenter", showWindow);
+document.getElementById("myWindow").addEventListener("mouseleave", hideWindow);
+
+
+document.querySelector(".basket-Batton").addEventListener("click", function() {
+  window.location.href = 'basket.html';
+});
+
+
+
+
+//login window
+function toggleWindow() {
+  var loginWindow = document.getElementById("loginWindow");
+  if (loginWindow.style.display === "none" || loginWindow.style.display === "") {
+    loginWindow.style.display = "block";
+  } else {
+    loginWindow.style.display = "none";
+  }
+}
+
+
+
+
+
+
+
+//phone number input
+const phoneInput = document.getElementById("phoneNum");
+
+phoneInput.addEventListener("input", function(event) {
+  const cleanedValue = event.target.value.replace(/\D/g, '');
+  event.target.value = cleanedValue;
+});
+
+
+  

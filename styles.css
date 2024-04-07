@@ -233,6 +233,181 @@ nav {
 
 
 
+.icon {
+ width: 50px;
+ height: 50px;
+ border-radius: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: rgb(234, 177, 146);
+ font-size: 30px;
+ position: fixed;
+ top: 700px;
+ left: 93%;
+ cursor: pointer;
+ transition-duration: 0.4s;
+}
+
+
+.icon:hover {
+  transform: scale(1.2, 1.2);
+}
+
+
+.icon i {
+  color: rgb(255, 89, 0);
+  font-size: 22px;
+}
+
+.window {
+  display: none;
+  position: absolute;
+  width: 22%;
+  height: 320px;
+  margin-top: 300px;
+  border-radius: 13px;
+  margin-top: 380px;
+  margin-left: 540px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.window-header {
+  width: 100%;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 45%;
+  font-size: 18px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.basket-icon {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: darkgray;
+  font-size: 80px;
+}
+
+.window h4 {
+  width: 100%;
+  margin-left: 59%;
+  font-family: "Quicksand", sans-serif;
+}
+
+
+.window-button {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.window-button button {
+  width: 170px;
+  height: 35px;
+  border-radius: 12px;
+  font-size: 18px;
+  border: none;
+  color: #fff;
+  background-color: rgb(255, 89, 0);
+  cursor: pointer;
+}
+
+
+
+.window__2 {
+  display: absolute;
+  width: 450px;
+  height: auto;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 13px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.window-head {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  border-bottom: 2px solid darkgray;
+}
+
+.closing-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: rgb(255, 89, 0);
+  cursor: pointer;
+}
+
+
+.buttons  {
+  width: 90%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons button {
+  width: 45%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+}
+
+.phone-number-form {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  gap: 5%;
+}
+
+.phone-number-form select{
+  width: 20%;
+  height: 50px;
+  border: none;
+  background-color: rgb(212, 210, 210);
+  border-radius: 11px;
+  font-size: 20px;
+  text-align: center;
+  outline: none;
+}
+
+.phone-number-form input{
+  width: 75%;
+  border-radius: 11px;
+  border: none;
+  outline: none;
+  background-color: rgb(212, 210, 210);
+  font-size: 20px;
+}
+
+
+
 
   
 
