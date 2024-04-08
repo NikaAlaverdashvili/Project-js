@@ -24,27 +24,98 @@
             <input class="search-input" type="search" placeholder="SEARCH">
         </div>
 
-        <button class="Shop" onclick="shrinkAndRestore('.Shop')">
+
+
+
+        <button class="Shop" onclick="showWindow()">
             <i class="fa-solid fa-cart-shopping"></i>
-            <p class="basket">BASKET</p>
+            <p>BASKET</p>
         </button>
 
-        <button class="login-button" onclick="shrinkAndRestore('.login-button')" onclick="toggleLoginForm()">
+        <div id="myWindow" class="window">
+            <div class="window-header">
+                <h3>basket</h3>
+                <p>0 product</p>
+            </div>
+            <div class="basket-icon">
+            <i class="fa-solid fa-basket-shopping"></i>
+            </div>
+            <h4>Total price: 0 $</h4>
+            <div class="window-button">
+                <button class="basket-Batton">OPEN BASKET</button>
+            </div>
+          </div>
+
+
+
+
+        
+        <button class="login-button" onclick="openLoginWindow()">
             <i class="fa-solid fa-user"></i>
-            <p class="user">LOG IN</p>
+            <p>LOG IN</p>
         </button>
+
+
+        <div id="loginWindow" class="window__2">
+            <div class="window-head">
+                <div id="authorizationTab" class="tab">Authorization</div>
+                <div id="registrationTab" class="tab">Registration</div>
+                <div class="closing-button" onclick="closeLoginWindow()"><i class="fa-solid fa-x"></i></div>
+            </div>
+            <div class="buttons">
+                <button id="authorizeByNumber">Authorization by number</button>
+                <button id="emailAuthorization">Email authorization</button>
+            </div>
+            <div class="phone-number-form">
+             <select id="Phone-number" name="phone">
+              <option value="+995">+995</option>
+              <option value="+567">+567</option>
+              <option value="+380">+380</option>
+              <option value="+420">+420</option>
+             </select>
+            <input type="tel" id="phoneNum" placeholder="Phone Number">
+            </div>
+
+            <div class="Submit-button">
+                <button>SEND CODE</button>
+            </div>
+
+            <div class="bottom-div">
+                <div>Or authenticate using another method</div>
+                <div class="icons">
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-apple"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </div>
+
+          </div>
+
+
+       
+
+
+
     </nav>
     </header>
 
+    
 
-    <div class="background">
-        <div class="container">
-            <div class="categories-item">
-                <p class="categories">ALL CATEGORIES</p>
-            </div>
-        </div>
+     
+
+
+
+
+    
+
+    <div class="icon">
+        <i class="fa-solid fa-message"></i>
     </div>
 
+
+   
+
+    
 
 
 

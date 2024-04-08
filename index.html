@@ -19,7 +19,7 @@
             <p class="navigation">NAVIGATION</p>
         </button>
 
-        <div class="box">
+        <div class="box" onclick="searchProducts()">
             <i class="fa-solid fa-magnifying-glass"></i>
             <input class="search-input" type="search" placeholder="SEARCH">
         </div>
@@ -50,7 +50,7 @@
 
 
         
-        <button class="login-button" onclick="shrinkAndRestore('.login-button')">
+        <button class="login-button" onclick="openLoginWindow()">
             <i class="fa-solid fa-user"></i>
             <p>LOG IN</p>
         </button>
@@ -58,13 +58,13 @@
 
         <div id="loginWindow" class="window__2">
             <div class="window-head">
-                <div>Authorization</div>
-                <div>Registration</div>
-                <div class="closing-button"><i class="fa-solid fa-x"></i></div>
+                <div id="authorizationTab" class="tab">Authorization</div>
+                <div id="registrationTab" class="tab">Registration</div>
+                <div class="closing-button" onclick="closeLoginWindow()"><i class="fa-solid fa-x"></i></div>
             </div>
             <div class="buttons">
-                <button>Authorization by number</button>
-                <button>Email authorization</button>
+                <button id="authorizeByNumber">Authorization by number</button>
+                <button id="emailAuthorization">Email authorization</button>
             </div>
             <div class="phone-number-form">
              <select id="Phone-number" name="phone">
@@ -74,6 +74,19 @@
               <option value="+420">+420</option>
              </select>
             <input type="tel" id="phoneNum" placeholder="Phone Number">
+            </div>
+
+            <div class="Submit-button">
+                <button>SEND CODE</button>
+            </div>
+
+            <div class="bottom-div">
+                <div>Or authenticate using another method</div>
+                <div class="icons">
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-apple"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
             </div>
 
           </div>
@@ -90,20 +103,20 @@
 
       <div class="Categorize-box">
 
-        <div class="div-item" id="divItem1">
+        <div class="div-item" id="divItem1" onclick="filterByCategory('SMARTPHONES')">
             <i class="fa-solid fa-mobile"></i>
             <p>SMARTPHONES</p>
             <div class="bottom-border" id="bottomBorder1"></div>
         </div>
 
-        <div class="div-item" id="divItem2">
+        <div class="div-item" id="divItem2" onclick="filterByCategory('TABS')">
             <i class="fa-solid fa-tablet"></i>
             <p>TABS</p>
             <div class="bottom-border" id="bottomBorder2"></div>
             <div class="top-border"></div>
         </div>
 
-        <div class="div-item" id="divItem3">
+        <div class="div-item" id="divItem3" onclick="filterByCategory('lAPTOPS | IT')">
             <i class="fa-solid fa-laptop"></i>
             <p>lAPTOPS | IT</p>
             <div class="bottom-border" id="bottomBorder3"></div>
@@ -144,6 +157,12 @@
       <div class="img-container" id="imageContainer"></div>
 
     </div>
+
+
+    </div>
+    <div id="productContainer"></div>
+
+  
 
     <div class="icon">
         <i class="fa-solid fa-message"></i>
