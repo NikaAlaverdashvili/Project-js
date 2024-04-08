@@ -749,7 +749,405 @@ price: 799
   price: 1699
 },
 
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0185094_xiaomi-smart-laser-measure-grey_550.jpeg&w=640&q=100',
+  category: 'SMART GADJETS',
+  brand: 'Xiaomi',
+  name: 'Xiaomi Smart Laser Measure Grey',
+  price: 129
+},
 
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0147738_philips-nose-trimmer-nt365016-black_550.jpeg&w=640&q=100',
+  category: 'SMART GADJETS',
+  brand: 'Philips',
+  name: 'Philips Nose Trimmer NT3650/16 Black',
+  price: 69
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0186176_google-nest-thermostat_550.jpeg&w=640&q=100',
+  category: 'SMART GADJETS',
+  brand: 'Google',
+  name: 'Google Nest Thermostat',
+  price: 299
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0184248_google-nest-doorbell-battery-smart-wifi-doorbell-camera-ash_550.jpeg&w=640&q=100',
+  category: 'SMART GADJETS',
+  brand: 'Google',
+  name: 'Google Nest Doorbell Battery Smart WiFi Doorbell Camera Ash',
+  price: 499
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F065b68f7-1c06-4f73-a50d-aaf83c7433fe_Thumb.jpeg&w=640&q=100',
+  category: 'SMART GADJETS',
+  brand: 'Amazon',
+  name: 'Amazon Echo 5th Gen Smart speaker White',
+  price: 149 
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0192594_xiaomi-mi-electric-scooter-4-pro-black_550.jpeg&w=640&q=100',
+  category: 'SMART GADJETS',
+  brand: 'Xiaomi',
+  name: 'Xiaomi Mi Electric Scooter 4 Pro Black',
+  price: 1899 
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0192618_dyson-purifier-cool-formaldehyde-purifying-fan-tp09-whitegold_550.jpeg&w=640&q=100',
+  category: 'SMART GADJETS',
+  brand: 'Dyson',
+  name: 'Dyson Purifier Cool Formaldehyde purifying fan TP09',
+  price: 2099
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0185308_deerma-dehumidifier-cs50mw-white_550.jpeg&w=640&q=100',
+  category: 'SMART GADJETS',
+  brand: 'Deerma',
+  name: 'Deerma Dehumidifier CS50MW White',
+  price: 99
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0183343_xiaomi-smart-pet-food-feeder-bhr6143eu-white_550.jpeg&w=640&q=100',
+  category: 'SMART GADJETS',
+  brand: 'Xiaomi',
+  name: 'Xiaomi Smart Pet Food Feeder BHR6143EU White',
+  price: 349
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0198292_amazon-echo-show-5-3nd-gen-cloud-blue_550.jpeg&w=640&q=100',
+  category: 'SMART GADJETS',
+  brand: 'Amazon',
+  name: 'Amazon Echo Show 5 3nd Gen Blue',
+  price: 249
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0161465_house-of-marley-get-together-duo_550.jpeg&w=640&q=100',
+  category: 'AUDIO SYSTEM',
+  brand: 'Marley',
+  name: 'House Of Marley Get Together Duo',
+  price: 499
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0187107_beats-pill-plus-portable-wireless-speaker-black_550.jpeg&w=640&q=100',
+  category: 'AUDIO SYSTEM',
+  brand: 'Beats',
+  name: 'Beats Pill Plus Portable Wireless Speaker Black',
+  price: 299
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0188724_marshall-woburn-iii-cream_550.jpeg&w=640&q=100',
+  category: 'AUDIO SYSTEM',
+  brand: 'Marshall',
+  name: 'Marshall Woburn III Cream',
+  price: 1499
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F1d66ffd2-10aa-499b-980c-7a2fc2762e2c_Thumb.jpeg&w=640&q=100',
+  category: 'AUDIO SYSTEM',
+  brand: 'Marshall',
+  name: 'Marshall Tufton Bluetooth Black',
+  price: 1299
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0190250_audio-technica-at-lp120xusb-silver_550.jpeg&w=640&q=100',
+  category: 'AUDIO SYSTEM',
+  brand: 'Audio-Technica',
+  name: 'Audio-Technica AT-LP120XUSB Silver',
+  price: 1049 
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0198933_apple-airpods-pro-2-with-usb-c-charging-case-mtjv3-2023_550.jpeg&w=640&q=100',
+  category: 'AUDIO SYSTEM',
+  brand: 'Apple',
+  name: 'Apple AirPods Pro 2 With USB-C Charging Case (MTJV3) (2023)',
+  price: 749
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0171037_hyperx-quadcast-s-mic_550.jpeg&w=640&q=100',
+  category: 'AUDIO SYSTEM',
+  brand: 'HyperX',
+  name: 'HyperX QuadCast S Mic',
+  price: 359
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0136363_apple-airpods-max-sky-blue_550.jpeg&w=640&q=100',
+  category: 'AUDIO SYSTEM',
+  brand: 'Apple',
+  name: 'Apple AirPods Max Blue',
+  price: 1839
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0191573_marshall-emberton-ii-cream_550.jpeg&w=640&q=100',
+  category: 'AUDIO SYSTEM',
+  brand: 'Marshall',
+  name: 'Marshall Emberton II cream',
+  price: 449
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0190244_jbl-xtreme-3-blue_550.jpeg&w=640&q=100',
+  category: 'AUDIO SYSTEM',
+  brand: 'JBL',
+  name: 'JBL Xtreme 3 Blue',
+  price: 799
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0167026_nintendo-switch-oled-2021-white_550.jpeg&w=640&q=100',
+  category: 'GAMING',
+  brand: 'Nintendo',
+  name: 'Nintendo Switch Oled 2021 White',
+  price: 879
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F7160a520-ff23-4d2b-b27d-98c18aa3c3ce_Thumb.jpeg&w=640&q=100',
+  category: 'GAMING',
+  brand: 'Microsoft',
+  name: 'Microsoft Xbox Series S Digital Edition 1TB',
+  price: 1069
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F58d2ef74-8ce1-416f-8058-ae05779ba13e_Thumb.jpeg&w=640&q=100',
+  category: 'GAMING',
+  brand: 'Asus',
+  name: 'Asus ROG Ally RC71L Z1 Extreme Handheld Video Game Console',
+  price: 2249
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F9fd7ddf5-c35f-44a4-b8e1-776b49c2bd28_Thumb.jpeg&w=640&q=100',
+  category: 'GAMING',
+  brand: 'PlayStation',
+  name: 'Sony PlayStation PS5 Slim 1TB Gran Turismo 7 Bundle',
+  price: 1629
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0186844_oculus-meta-quest-pro-256gb-black_550.jpeg&w=640&q=100',
+  category: 'GAMING',
+  brand: 'Meta',
+  name: 'Oculus Meta Quest Pro 256GB Black',
+  price: 3299
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2Fe45fd6bc-ca61-4525-8594-14a1022f4434_Thumb.jpeg&w=640&q=100',
+  category: 'GAMING',
+  brand: 'Apple',
+  name: 'Apple Vision Pro MQL83 256GB White',
+  price: 11999
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0170979_g5-handheld-gaming-device-two-player-pink_550.jpeg&w=640&q=100',
+  category: 'GAMING',
+  brand: 'Handheld',
+  name: 'G5 Handheld Gaming Device Two-Player Pink',
+  price: 79 
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0150212_microsoft-xbox-series-xs-controller-special-edition-daystrike-camo_550.jpeg&w=640&q=100',
+  category: 'GAMING',
+  brand: 'Microsoft',
+  name: 'Microsoft Xbox Series X/S Controller Special Edition Daystrike Camo',
+  price: 199
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2Fe4b5d5db-98f4-4b5a-aad4-2d06cb18f056_Thumb.jpeg&w=640&q=100',
+  category: 'GAMING',
+  brand: 'Sony',
+  name: 'PS5 Wireless Controller Dualsense Edge White',
+  price: 619 
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0194130_f1-2023-game-for-ps5_550.jpeg&w=640&q=100',
+  category: 'GAMING',
+  brand: 'Sony',
+  name: 'F1 2023 Game for PS5',
+  price: 179
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F47db8e46-79d7-49f0-87e2-d6645894fa95_Thumb.jpeg&w=640&q=100',
+  category: 'TV | MONITORS',
+  brand: 'Samsung',
+  name: 'Samsung TV QE55Q80CAUXZT-2021',
+  price: 2899
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F72364e68-cd67-4ac4-8178-4c0e2128ad30_Thumb.jpeg&w=640&q=100',
+  category: 'TV | MONITORS',
+  brand: 'LG',
+  name: 'LG TV 55UP78003LB',
+  price: 1299 
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F86aaafdf-3215-4ff8-8aa7-640d6a72cf99_Thumb.jpeg&w=640&q=100',
+  category: 'TV | MONITORS',
+  brand: 'Samsung',
+  name: 'Samsung TV QE75Q60CAUXXH-2023',
+  price: 3999
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0197538_xiaomi-tv-q2-65-global-version-black_550.jpeg&w=640&q=100',
+  category: 'TV | MONITORS',
+  brand: 'Xiaomi',
+  name: 'Xiaomi TV Q2 65 Global Version',
+  price: 1849
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0185462_xiaomi-tv-a2-50-global-version_550.jpeg&w=640&q=100',
+  category: 'TV | MONITORS',
+  brand: 'Xiaomi',
+  name: 'Xiaomi TV A2 50 Global Version',
+  price: 979
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2Fd80a0bb2-9c93-4c22-9dcc-ed53bdeff37f_Thumb.jpeg&w=640&q=100',
+  category: 'TV | MONITORS',
+  brand: 'Samsung',
+  name: 'Samsung TV UE50CU8072UXXH-2023',
+  price: 1449
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F25f1fcb8-24a4-4513-b8bb-08baac39a7dd_Thumb.jpeg&w=640&q=100',
+  category: 'TV | MONITORS',
+  brand: 'Samsung',
+  name: 'Samsung TV UE50AU7090UXZT-2021',
+  price: 1099 
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0196289_samsung-tv-ue65cu7172uxxh-2023-televizori_550.jpeg&w=640&q=100',
+  category: 'TV | MONITORS',
+  brand: 'Samsung',
+  name: 'Samsung TV UE65CU7172UXXH-2023',
+  price: 1899
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F8e85b154-3228-4cab-a877-ecb9f4c2f68f_Thumb.jpeg&w=640&q=100',
+  category: 'TV | MONITORS',
+  brand: 'Samsung',
+  name: 'Samsung TV UE43CU7172UXXH',
+  price: 949
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0197536_xiaomi-tv-q2-55-global-version-black_550.jpeg&w=640&q=100',
+  category: 'TV | MONITORS',
+  brand: 'Xiaomi',
+  name: 'Xiaomi TV Q2 55 Global Version',
+  price: 1299 
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0190499_nikon-coolpix-p1000-black_550.jpeg&w=640&q=100',
+  category: 'PHOTO | VIDEO',
+  brand: 'Nikon',
+  name: 'Nikon Coolpix P1000 Black',
+  price: 3299
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0092054_canon-eos-4000d-ef-s-18-55-iii-kit-black_550.png&w=640&q=100',
+  category: 'PHOTO | VIDEO',
+  brand: 'Canon',
+  name: 'Canon EOS 4000D EF-S 18-55 III KIT Black',
+  price: 999
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0195269_canon-eos-r8-body-5803c019aa-black_550.jpeg&w=640&q=100',
+  category: 'PHOTO | VIDEO',
+  brand: 'Canon',
+  name: 'Canon EOS R8 body 5803C019AA Black',
+  price: 4599
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0195305_canon-eos-r8-rf-24-50mm-5803c016aa-black_550.jpeg&w=640&q=100',
+  category: 'PHOTO | VIDEO',
+  brand: 'Canon',
+  name: 'Canon EOS R8 RF 24-50mm 5803C016AA Black',
+  price: 5999 
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0185586_sony-alpha-a6400-mirrorless-digital-camera-with-16-50mm-lens_550.jpeg&w=640&q=100',
+  category: 'PHOTO | VIDEO',
+  brand: 'Sony',
+  name: 'Sony Alpha a6400 Mirrorless Digital Camera with 16-50mm',
+  price: 2999
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0184534_sony-alpha-a7r-iv-mirrorless-digital-camera-body-black_550.jpeg&w=640&q=100',
+  category: 'PHOTO | VIDEO',
+  brand: 'Sony',
+  name: 'Sony Alpha A7R IV Mirrorless Digital Camera Body Black',
+  price: 7999
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F9b4801cb-d4df-495a-9f9f-55a851b0b1ef_Thumb.jpeg&w=640&q=100',
+  category: 'PHOTO | VIDEO',
+  brand: 'DJI',
+  name: 'DJI Osmo Action 4 Standard Combo',
+  price: 1499
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0186629_xiaomi-imilab-ec5-floodlight-camera-2k-white_550.jpeg&w=640&q=100',
+  category: 'PHOTO | VIDEO',
+  brand: 'Xiaomi',
+  name: 'Xiaomi imilab EC5 Floodlight Camera 2K White',
+  price: 249 
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2Fcfd4bd0d-61bf-4209-9da7-02ae84cb5f41_Thumb.jpeg&w=640&q=100',
+  category: 'PHOTO | VIDEO',
+  brand: 'Canon',
+  name: 'Canon EOS R7 RF-S 18-150 mm 5137C040AA',
+  price: 4899
+},
+
+{
+  image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0185593_sony-cyber-shot-rx10-iv-with-24-600mm-lense_550.jpeg&w=640&q=100',
+  category: 'PHOTO | VIDEO',
+  brand: 'Sony',
+  name: 'Sony Cyber Shot RX10 IV with 24-600MM Lense',
+  price: 4599
+},
 
 ];
 
@@ -813,6 +1211,15 @@ const productContainer = document.getElementById('productContainer');
       }
 
       drawProducts(productsArr);
+
+
+
+
+
+
+
+
+      
   
 
 

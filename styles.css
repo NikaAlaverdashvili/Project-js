@@ -36,6 +36,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-left: 6%;
 }
 
 .Web-Name {
@@ -148,7 +149,7 @@ nav {
 
 
 .container {
-  width: 82%;
+  width: 84%;
   height: 380px;
   position: relative;
   top: 100px;
@@ -211,7 +212,7 @@ nav {
 
 
 .img-container {
-  width: 60%;
+  width: 63%;
   height: 380px;
   border-radius: 13px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
@@ -326,7 +327,7 @@ nav {
 
 .window__2 {
   display: none;
-  width: 450px;
+  width: 420px;
   height: auto;
   position: fixed;
   top: 50%;
@@ -403,7 +404,7 @@ nav {
   height: 40px;
   border-radius: 20px;
   border: none;
-  font-size: 15.5px;
+  font-size: 13.5px;
   cursor: pointer;
   /* border: 1px solid rgb(255, 89, 0); */
 }
@@ -492,7 +493,7 @@ nav {
 #productContainer {
   width: 100%;
   position: relative;
-  top: 200px;
+  top: 110px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -520,8 +521,6 @@ nav {
 }
 
 
-
-
 .button {
   background-color:  rgb(255, 89, 0);
   color: white;
@@ -544,15 +543,42 @@ nav {
   padding: 5px;
 }
 
-/* .box i {
-  margin-right: 5px;
-} */
+
 
 .search-input {
   border: none;
   outline: none;
   width: 100%;
 }
+
+
+/* .phones-Container {
+  width: 100%;
+  height: 250px;
+  background-color: red;
+  position: relative;
+  top: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phones-Container i {
+  font-size: 40px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.fa-chevron-left {
+  right: 90%;
+}
+
+.fa-chevron-right {
+  left: 90%;
+} */
+
+
+
 
 
 
