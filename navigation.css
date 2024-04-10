@@ -13,7 +13,7 @@
 
 
 body {
-  height: 200vh;
+  height: auto;
 }
 
 
@@ -36,6 +36,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-left: 6%;
 }
 
 .Web-Name {
@@ -147,6 +148,89 @@ nav {
 
 
 
+.container {
+  width: 84.5%;
+  height: 380px;
+  position: relative;
+  top: 100px;
+  left: 8%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.Categorize-box {
+  width: 250px;
+  height: 380px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 13px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+  border: 1px solid rgb(255, 89, 0);
+}
+
+.div-item {
+  width: 100%;
+  height: 12.5%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  color: rgb(98, 98, 98);
+  font-family: "Quicksand", sans-serif;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+}
+
+.bottom-border {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  border-bottom: 2px solid rgb(87, 87, 87);
+}
+
+
+.bottom-border:hover {
+  display: none;
+}
+
+.div-item i {
+  margin-left: 10%;
+}
+
+.div-item:hover {
+  background-color: rgb(229, 226, 226);
+}
+
+
+
+.img-container {
+  width: 63%;
+  height: 380px;
+  border-radius: 13px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+  border: 2px solid rgb(255, 89, 0);
+  cursor: pointer;
+}
+
+
+.img-container {
+  width: 75%;
+  height: 100%;
+  text-align: center;
+}
+.img-container img {
+  max-width: 100%;
+  height: 100%;
+}
 
 
 
@@ -243,7 +327,7 @@ nav {
 
 .window__2 {
   display: none;
-  width: 450px;
+  width: 420px;
   height: auto;
   position: fixed;
   top: 50%;
@@ -320,7 +404,7 @@ nav {
   height: 40px;
   border-radius: 20px;
   border: none;
-  font-size: 15.5px;
+  font-size: 13.5px;
   cursor: pointer;
   /* border: 1px solid rgb(255, 89, 0); */
 }
@@ -403,32 +487,6 @@ nav {
 .icons i {
   cursor: pointer;
 }
-
-
-
-
-
-#productContainer {
-  position: relative;
-  top: 200px;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.card {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  width: 200px;
-  height: 300px;
-}
-
-.card img {
-  max-width: 100%;
-  height: auto;
-}
-
-
-
 
 
 

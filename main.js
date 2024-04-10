@@ -142,6 +142,23 @@ phoneInput.addEventListener("input", function(event) {
 
 
 
+
+
+
+function filterByCategory(category) {
+  const filteredProducts = productsArr.filter(product => product.category === category);
+  localStorage.setItem('filteredProducts', JSON.stringify(filteredProducts));
+  window.location.href = 'product.html';
+}
+
+
+
+
+
+
+
+
+
 //products
   
 const productsArr = [
@@ -191,7 +208,7 @@ const productsArr = [
     image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0192777_microsoft-surface-pro-9-2022-intel-evo-i7-16gb-ssd-256gb-intel-core-i7-1255u-intel-iris-xe-graphics-_550.jpeg&w=640&q=100',
     category: 'TABS',
     brand: 'Microsoft',
-    name: 'Microsoft Surface Pro 9 2022 Intel Evo i7 16GB SSD 256GB Platinum',
+    name: 'Microsoft Surface Pro 9 2022 Intel Evo i7 16GB SSD 256GB',
     price: 2789
 },
 
@@ -265,7 +282,7 @@ price: 799
   image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F677d176a-a901-45b8-aa18-fc60c73c3f12_Thumb.jpeg&w=640&q=100',
   category: 'TABS',
   brand: 'Samsung',
-  name: 'Samsung SM-X216 Galaxy Tab A9+ Single Sim 4GB RAM 64GB 5G Graphite',
+  name: 'Samsung SM-X216 Galaxy Tab A9+ Single Sim 4GB RAM 64GB',
   price: 839 
 },
 
@@ -289,7 +306,7 @@ price: 799
   image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F9308e4d9-be41-4c77-8cb2-acb318a4af07_Thumb.jpeg&w=640&q=100',
   category: 'TABS',
   brand: 'Apple ',
-  name: 'Apple iPad 2021 9th Generation 10.2 inch 64GB Wi-Fi Silver',
+  name: 'Apple iPad 2021 9th Generation 10.2 inch 64GB',
   price: 929
 },
 
@@ -337,7 +354,7 @@ price: 799
   image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0164371_apple-ipad-air-5th-generation-109-64gb-wi-fi-space-grey_550.jpeg&w=640&q=100',
   category: 'TABS',
   brand: 'Apple ',
-  name: 'Apple iPad Air 5th Generation 10.9 64GB Wi-Fi Space Grey',
+  name: 'Apple iPad Air 5th Generation 10.9 64GB Wi-Fi',
   price: 1699 
 },
 
@@ -353,7 +370,7 @@ price: 799
   image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0195854_hp-omen-16-84k16ea-black_550.jpeg&w=640&q=100',
   category: 'lAPTOPS | IT',
   brand: 'HP',
-  name: 'HP Omen 16 84K16EA, Intel core i9-13900HX, Nvidia GeForce RTX 4070',
+  name: 'HP Omen 16 84K16EA, Intel core i9-13900HX',
   price: 7999
 },
 
@@ -601,7 +618,7 @@ price: 799
   image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0192732_microsoft-surface-pro-9-2022-intel-evo-i5-16gb-ssd-256gb-intel-core-i5-1235u-intel-iris-xe-graphics-_550.jpeg&w=640&q=100',
   category: 'TABS',
   brand: 'Microsoft',
-  name: 'Microsoft Surface Pro 9 2022 Intel Evo i5 16GB SSD 256GB Graphite',
+  name: 'Microsoft Surface Pro 9 2022 Intel Evo i5 16GB SSD 256GB',
   price: 4599
 },
 
@@ -625,7 +642,7 @@ price: 799
   image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F7aa2a813-7f94-4b09-9322-afda16631b56_Thumb.jpeg&w=640&q=100',
   category: 'TABS',
   brand: 'Samsung',
-  name: 'Samsung SM-X115 Galaxy Tab A9 Single Sim 4GB RAM 64GB LTE Navy',
+  name: 'Samsung SM-X115 Galaxy Tab A9 Single Sim 4GB RAM 64GB',
   price: 499
 },
 
@@ -641,7 +658,7 @@ price: 799
   image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0197963_acer-aspire-5-a515-58p-nxkhjer002-grey_550.jpeg&w=640&q=100',
   category: 'lAPTOPS | IT',
   brand: 'Acer',
-  name: 'Acer Aspire 5 A515-58P NX.KHJER.002, Intel Core i3-1315U 3.3Ghz',
+  name: 'Acer Aspire 5 A515-58P NX.KHJER.002,',
   price: 1129
 },
 
@@ -649,7 +666,7 @@ price: 799
   image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F8221c366-24dd-40a1-b6be-767278412042_Thumb.jpeg&w=640&q=100',
   category: 'TABS',
   brand: 'Samsung',
-  name: 'Samsung SM-X110 Galaxy Tab A9 4GB RAM 64GB Wi-Fi Silver',
+  name: 'Samsung SM-X110 Galaxy Tab A9 4GB RAM 64GB',
   price: 399
 },
 
@@ -673,7 +690,7 @@ price: 799
   image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0177636_samsung-sm-p613-galaxy-tab-s6-lite-2022-104-wi-fi-64gb-pink_550.jpeg&w=640&q=100',
   category: 'TABS',
   brand: 'Samsung',
-  name: 'Samsung SM-P613 Galaxy Tab S6 lite 2022 10.4 Wi-FI 64GB Pink',
+  name: 'Samsung SM-P613 Galaxy Tab S6 lite 2022 10.4',
   price: 899
 },
 
@@ -697,7 +714,7 @@ price: 799
   image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F068dd37a-cc35-4c5d-9a6b-b0d6d755dc42_Thumb.jpeg&w=640&q=100',
   category: 'TABS',
   brand: 'Samsung',
-  name: 'Samsung SM-X616 Galaxy Tab S9 FE+ 12GB RAM 256GB 5G Lavender',
+  name: 'Samsung SM-X616 Galaxy Tab S9 FE+ 12GB RAM 256GB',
   price: 2149
 },
 
@@ -721,7 +738,7 @@ price: 799
   image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F5e85a4e7-34ad-436c-84d4-5b16446bfcbb_Thumb.jpeg&w=640&q=100',
   category: 'TABS',
   brand: 'Samsung ',
-  name: 'Samsung SM-X216 Galaxy Tab A9+ Single Sim 8GB RAM 128GB 5G Silver',
+  name: 'Samsung SM-X216 Galaxy Tab A9+ Single Sim 8GB RAM 128GB',
   price: 939
 },
 
@@ -745,7 +762,7 @@ price: 799
   image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0164371_apple-ipad-air-5th-generation-109-64gb-wi-fi-space-grey_550.jpeg&w=640&q=100',
   category: 'TABS',
   brand: 'Apple',
-  name: 'Apple iPad Air 5th Generation 10.9 64GB Wi-Fi Space Grey',
+  name: 'Apple iPad Air 5th Generation 10.9 64GB Wi-Fi',
   price: 1699
 },
 
@@ -873,7 +890,7 @@ price: 799
   image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0198933_apple-airpods-pro-2-with-usb-c-charging-case-mtjv3-2023_550.jpeg&w=640&q=100',
   category: 'AUDIO SYSTEM',
   brand: 'Apple',
-  name: 'Apple AirPods Pro 2 With USB-C Charging Case (MTJV3) (2023)',
+  name: 'Apple AirPods Pro 2 With USB-C Charging Case',
   price: 749
 },
 
@@ -929,7 +946,7 @@ price: 799
   image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F58d2ef74-8ce1-416f-8058-ae05779ba13e_Thumb.jpeg&w=640&q=100',
   category: 'GAMING',
   brand: 'Asus',
-  name: 'Asus ROG Ally RC71L Z1 Extreme Handheld Video Game Console',
+  name: 'Asus ROG Ally RC71L Z1',
   price: 2249
 },
 
@@ -969,7 +986,7 @@ price: 799
   image: 'https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fzoommer-images%2Fthumbs%2F0150212_microsoft-xbox-series-xs-controller-special-edition-daystrike-camo_550.jpeg&w=640&q=100',
   category: 'GAMING',
   brand: 'Microsoft',
-  name: 'Microsoft Xbox Series X/S Controller Special Edition Daystrike Camo',
+  name: 'Microsoft Xbox Series X/S',
   price: 199
 },
 
@@ -1200,15 +1217,15 @@ const productContainer = document.getElementById('productContainer');
 
 
 
-        function filterByCategory(category) {
-          const filteredProducts = productsArr.filter(product => product.category === category);
-          drawProducts(filteredProducts);
+      //   function filterByCategory(category) {
+      //     const filteredProducts = productsArr.filter(product => product.category === category);
+      //     drawProducts(filteredProducts);
 
-          document.querySelectorAll('.bottom-border').forEach(border => border.classList.remove('active'));
+      //     document.querySelectorAll('.bottom-border').forEach(border => border.classList.remove('active'));
 
-          const bottomBorder = document.getElementById(`bottomBorder${category}`);
-          bottomBorder.classList.add('active');
-      }
+      //     const bottomBorder = document.getElementById(`bottomBorder${category}`);
+      //     bottomBorder.classList.add('active');
+      // }
 
       drawProducts(productsArr);
 
@@ -1219,7 +1236,125 @@ const productContainer = document.getElementById('productContainer');
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const wrappers = document.querySelectorAll('.wrapper');
+
+// const categories = ['SMARTPHONES', 'TABS', 'LAPTOPS | IT', 'AUDIO SYSTEM', 'GAMING'];
+
+// function renderProducts(wrapperIndex, category) {
+//     const carousel = wrappers[wrapperIndex].querySelector('.carousel');
+//     carousel.innerHTML = '';
+//     productsArr.forEach((product, index) => {
+//         if (product.category === category) {
+//             const card = document.createElement('li');
+//             card.className = 'card';
+//             card.innerHTML = `
+//                 <img src="${product.image}" alt="${product.name}">
+//                 <h5>${product.name}</h5>
+//                 <p>${product.price} $</p>
+//                 <button>Buy Now</button>
+//             `;
+//             carousel.appendChild(card);
+//         }
+//     });
+// }
+
+// for (let i = 0; i < wrappers.length; i++) {
+//     renderProducts(i, categories[i]);
+// }
+
+// wrappers.forEach((wrapper, index) => {
+//     const leftButton = wrapper.querySelector('.left');
+//     const rightButton = wrapper.querySelector('.right');
+//     let currentPage = 0;
+
+//     leftButton.addEventListener('click', () => {
+//         currentPage = (currentPage === 0) ? Math.ceil(productsArr.length / itemsPerPage) - 1 : currentPage - 1;
+//         goToPage(wrapper, currentPage);
+//     });
+
+//     rightButton.addEventListener('click', () => {
+//         currentPage = (currentPage + 1) % Math.ceil(productsArr.length / itemsPerPage);
+//         goToPage(wrapper, currentPage);
+//     });
+// });
+
+// function goToPage(wrapper, page) {
+//     const carousel = wrapper.querySelector('.carousel');
+//     const itemsPerPage = 21;
+//     const startIndex = page * itemsPerPage;
+//     carousel.style.transition = 'transform 0.6s ease';
+//     carousel.style.transform = `translateX(-${startIndex * 10}px)`;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       
   
+
+
+
+      
+
+
+
+
+
+
+
+
 
 

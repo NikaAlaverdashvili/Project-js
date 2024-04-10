@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project/js</title>
-    <link rel="stylesheet" href="basket.css">
+    <link rel="stylesheet" href="product.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +19,7 @@
             <p class="navigation">NAVIGATION</p>
         </button>
 
-        <div class="box" onclick="searchProducts()">
+        <div class="box">
             <i class="fa-solid fa-magnifying-glass"></i>
             <input class="search-input" type="search" placeholder="SEARCH">
         </div>
@@ -90,21 +90,27 @@
             </div>
 
           </div>
-
-
-       
-
-
-
     </nav>
-</header>
+    </header>
 
 
+    <div class="Filter">
+        <p>FILTER</p>
+    </div>
 
+    <!-- <div class="buttons">
+        <button id="increaseBtn">PRICE: INCREASES</button>
+        <button id="decreaseBtn">PRICE: DECREASING</button>
+    </div> -->
 
+   
 
+    <div id="productContainer"></div>
 
+    <div class="icon">
+        <i class="fa-solid fa-message"></i>
+    </div>
 
-<script src="main.js"></script>
+    <script src="prod.js"></script>
 </body>
 </html>

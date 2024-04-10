@@ -13,7 +13,7 @@
 
 
 body {
-  height: 200vh;
+  height: auto;
 }
 
 
@@ -488,88 +488,3 @@ nav {
   cursor: pointer;
 }
 
-
-
-#productContainer {
-  width: 100%;
-  position: relative;
-  top: 110px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  
-}
-
-
-
-
-.card {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-  margin: 10px;
-  width: 200px;
-  height: 330px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font-family: "Quicksand", sans-serif;
-}
-
-.card img {
-  max-width: 100%;
-  height: auto;
-}
-
-
-.button {
-  background-color:  rgb(255, 89, 0);
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-top: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.box {
-  display: flex;
-  align-items: center;
-  border: 1px solid rgb(255, 89, 0);
-  border-radius: 13px;
-  padding: 5px;
-}
-
-
-
-.search-input {
-  border: none;
-  outline: none;
-  width: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
- 

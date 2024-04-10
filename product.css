@@ -13,7 +13,7 @@
 
 
 body {
-  height: 200vh;
+  height: auto;
 }
 
 
@@ -490,39 +490,63 @@ nav {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS for product cards */
+
+
 #productContainer {
-  width: 100%;
+  width: 70%;
   position: relative;
-  top: 110px;
+  top: 60px;
+  left: 28.5%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  
 }
 
-
-
-
-.card {
-  border: 1px solid #ccc;
+.product-card {
+  border: 1px solid  rgb(255, 89, 0);
   border-radius: 5px;
   padding: 10px;
   margin: 10px;
-  width: 200px;
-  height: 330px;
+  width: 170px;
+  height: 320px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   font-family: "Quicksand", sans-serif;
 }
 
-.card img {
-  max-width: 100%;
+.product-card img {
+  width: auto;
   height: auto;
+  margin-bottom: 10px;
 }
 
+.product-card p {
+  margin: 5px 0;
+  font-size: 12px;
+}
 
-.button {
+.product-card button {
   background-color:  rgb(255, 89, 0);
   color: white;
   border: none;
@@ -536,40 +560,34 @@ nav {
   cursor: pointer;
 }
 
-.box {
+
+.product-card button:hover {
+  background-color: #0056b3;
+}
+
+
+.Filter {
+  width: 400px;
+  height: 40px;
+  position: relative;
+  top: 95px;
+  left: 2%;
   display: flex;
+  justify-content: center;
   align-items: center;
-  border: 1px solid rgb(255, 89, 0);
-  border-radius: 13px;
-  padding: 5px;
+  border-bottom: 2px solid darkgray;
+  font-family: "Quicksand", sans-serif;
+}
+
+.Filter p {
+  font-size: 20px;
+  color: rgb(255, 89, 0);
 }
 
 
 
-.search-input {
-  border: none;
-  outline: none;
-  width: 100%;
+#price-filter {
+  position: relative;
+  top: 400px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
- 
